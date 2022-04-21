@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import Timer from './Timer';
+import Timer from './Time';
+import getTimeLeft from './getTime';
 import './tailwind.output.css';
 import reportWebVitals from './reportWebVitals';
 
@@ -10,8 +11,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
+
     <App />
-  <Timer />
+    <Timer timeLeft={getTimeLeft()}/>
   </React.StrictMode>
 );
 
