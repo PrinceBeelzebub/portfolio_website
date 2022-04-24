@@ -1,6 +1,9 @@
 module.exports = {
   content: ["./dist/*.html", "./dist/*.svg"],
   theme: {
+    container: {
+      center: true
+    },
     extend: {
       "colors": {
         "montana": {
