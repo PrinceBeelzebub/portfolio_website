@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "init": "npx tsc",
-    "build": "npx tailwindcss -i ./src/styles/input.css -o ./build/styles/output.css"
+    "build": "npx tsc & npx tailwindcss -i ./src/styles/input.css -o ./build/styles/output.css"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.4",
