@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./dist/*.html", "./dist/*.svg"],
+  content: ["./build/*.html", "./build/*/images/*.svg", "./src/*/scripts/*.ts", "./src/*/scripts/*.tsx"],
   theme: {
     container: {
       center: true
