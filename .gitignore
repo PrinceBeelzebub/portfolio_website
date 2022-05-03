@@ -1,3 +1,2 @@
-social.json
-build/scripts/countdown.js
-build/styles/output.css
+build/scripts/*
+build/styles/*

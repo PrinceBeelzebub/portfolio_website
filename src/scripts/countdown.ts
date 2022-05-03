@@ -10,12 +10,8 @@ function calcuateTime(): void {
     let hours: number = endDate.getHours() - currentDate.getHours();
     let minutes: number = endDate.getMinutes() - currentDate.getMinutes();
     let seconds: number = endDate.getSeconds() - currentDate.getSeconds();
-
-    let daysLeft = document.getElementById("day")
-        if (daysLeft) {
-        daysLeft.innerText = days.toString();
-    }
 }
+
 
 
 setInterval(

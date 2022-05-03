@@ -1,0 +1,21 @@
+@import "text";
+$defaultColor: #004475;
+$defaultHoveredColor: #005B9D ;
+
+button {
+    font-family: $textFamily;
+    font-weight: bold;
+    background-color: $defaultColor;
+    color: $buttonTextColor;
+    border: none;
+    border-radius: 10px;
+    padding: 0.6em;
+    margin-bottom: 0.2em;
+    text-align: center;
+    width: 5em;
+}
+
+button:hover {
+    @extend button;
+    background-color: $defaultHoveredColor;
+}
